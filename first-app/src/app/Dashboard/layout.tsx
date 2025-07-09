@@ -16,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </ul>
           </nav>
         </aside>
+        <div>{children}</div>
       </div>
     </div>
   );

@@ -36,6 +36,7 @@ export default function RootLayout({
             <Link href={"/products"} className="ml-5">
               Products{" "}
             </Link>
+            <Link href={"/profile"}> Profile</Link>
           </nav>
         </header>
         {children}
